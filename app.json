@@ -1,0 +1,17 @@
+{
+  "name": "tarea-maquetacion-adaptable",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
+}
