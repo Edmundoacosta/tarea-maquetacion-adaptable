@@ -1,6 +1,10 @@
 * {
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
 
 header, nav, aside, main, footer {
   color: #fff;
@@ -20,12 +24,30 @@ nav {
 
 aside {
   background: lightblue;
+  width: 20%;
 }
 
 main {
   background: purple;
+  width: 80%;
 }
 
 footer {
   background: aqua;
+}
+
+
+.wrapper {
+  display: flex;
+}
+
+
+@media (max-width: 320px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  main, aside {
+    width: 100%;
+  }
 }
